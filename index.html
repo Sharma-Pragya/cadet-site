@@ -145,15 +145,15 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-full">
         <h2 class="title is-3">Delays in Sense-Act Systems</h2>
-        <div class="content has-text-justified">
-          <!-- p>
+        <!-- div class="content has-text-justified">
+          <p>
           Each module within the closed-loop Sense-Act system introduces its own computational delay (<em>d<sub>1</sub></em>, <em>d<sub>2</sub></em>, and <em>d<sub>3</sub></em>), collectively influencing the overall application performance by shaping the accuracy-latency trade-off. Typically, system designs accommodate these delays by adopting a worst-case approach, where sensing and actuation are scheduled at fixed intervals that exceed the cumulative worst-case delays of <em>d<sub>1</sub></em>, <em>d<sub>2</sub></em>, and <em>d<sub>3</sub></em>. Alternatively, some systems adopt hybrid configurations, wherein sensing occurs at predetermined intervals while actuation is triggered as soon as the corresponding action is computed. This interplay between module-specific delays and the timing configurations for sensing and actuation has a significant impact on application performance, influencing both responsiveness and accuracy.
-        </p -->
+          </p>
           <figure>
         <img src="static/images/Figure1.png" alt="intro", style="max-width:75%; height:auto;">
         <figcaption>Visualization of closed-loop Sense-Act Systems with module delays <em>d<sub>1</sub></em> , <em>d<sub>2</sub></em> , and <em>d<sub>3</sub></em> .</figcaption>
         </figure>
-        </div>
+      </div -->
       </div>
     </div>
   </div>
@@ -164,18 +164,18 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-full">
         <h2 class="title is-3">System Design</h2>
-        <div class="content has-text-justified">
-          <!-- p>
+        <!-- div class="content has-text-justified">
+          <p>
           To demonstrate the placement of control in a distributed setting, we consider two execution locations for the control algorithm: local and cloud. Local control refers to an on-device controller, directly connected to the device's sensors via a low-latency link but constrained by limited computational resources due to its deployment on a resource-limited platform. In contrast, cloud control represents a remote controller equipped with significantly greater computational capabilities but connected to the device through a high-latency network link.
         </p>
           <p>
           This architecture is implemented for a Vehicle Following application using a simulated F1/10 racecar  and its environment in the Pybullet simulator. The simulation runs on a MacBook Pro and is connected to the local controller, a Raspberry Pi 4B, via Ethernet, collectively representing the vehicular network. The cloud controller, hosted on an Amazon AWS EC2 (N. California) instance, communicates with the vehicular network over Wi-Fi. This setup provides a representative framework to evaluate the trade-offs between low-latency local control and high-computation cloud-based control in distributed control systems.
-        </p -->
+        </p>
           <figure>
         <img src="static/images/Figure2.png" alt="intro", style="max-width:70%; height:auto;">
         <figcaption>System Setup with Local and Cloud control locations.</figcaption>
         </figure>
-        </div>
+      </div -->
       </div>
     </div>
   </div>
